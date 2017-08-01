@@ -1,0 +1,30 @@
+/*  popup for "correct", "mistake", and "awesome!" */
+div.popup {
+  position: absolute;
+  height: 42px; width: 220px;
+  font: 30px 'Open Sans';
+  font-weight: 800;
+  cursor: default;
+  padding: 2px;
+  vertical-align: middle;
+  border: 3px solid black;
+  background-color: white;
+  display: none; }
+div.sudoku-popup#win {
+  background-color: yellow; }
+
+  /* Timer display */
+table.timescore {
+  margin-top: -15px;
+  border: 0;
+  border-collapse: collapse;
+  width: 450px; }
+table.timescore td {
+  font: 12pt;
+  font-weight: 800; }
+
+/* Display "Victory!" or "ok so far" hints */
+.finished {
+  display: none; }
+.hinttext {
+  display: none; }
