@@ -1,0 +1,27 @@
+{
+  "name": "sudoku-game",
+  "version": "1.0.0",
+  "description": "A sudoku generator and solver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggovindan/sudoku-game.git"
+  },
+  "author": "ggovindan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggovindan/sudoku-game/issues"
+  },
+  "homepage": "https://github.com/ggovindan/sudoku-game#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "vue": "^2.4.2",
+    "vue-resource": "^1.3.4"
+  }
+}
